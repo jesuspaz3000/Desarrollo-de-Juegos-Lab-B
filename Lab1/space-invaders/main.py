@@ -128,7 +128,7 @@ bulletImg = pygame.transform.scale(bulletImg_original, (32, 32))
 bulletY_change = 10
 bullets = []  # Lista para almacenar múltiples balas
 bullet_cooldown = 0  # Contador para el tiempo entre disparos
-bullet_cooldown_rate = 7  # Frames entre disparos (ajustar según necesidad)
+bullet_cooldown_rate = 7  # Frames entre disparos
 
 # Balas enemigas
 enemy_bullets = []
@@ -296,7 +296,7 @@ def enemy(x, y, i):
 
 # juego
 running = True
-clock = pygame.time.Clock()  # Añadir un reloj para controlar la velocidad del juego
+clock = pygame.time.Clock()  # Reloj para controlar la velocidad del juego
 
 # Spawn inicialmente solo un power-up multi-direction
 spawn_powerup(screen_width // 2, 100, "multi_direction")
