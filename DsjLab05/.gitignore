@@ -1,0 +1,67 @@
+# Este archivo .gitignore está diseñado para proyectos de Unity3D
+# Ignora todos los archivos temporales, caché del editor y paquetes importados
+
+# Carpetas de Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures puede ser grande en tamaño.
+/[Mm]emoryCaptures/
+
+# Grabaciones puede ser grande en tamaño
+/[Rr]ecordings/
+
+# Archivos generados automáticamente
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Configuraciones específicas del editor de Visual Studio
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D archivos generados
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D archivos de crash
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Carpetas de Crashlytics
+crashlytics-build.properties
+
+# Archivos de sistema y respaldos
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+/[Aa]ssets/AssetStoreTools*
